@@ -1,7 +1,7 @@
 <template>
     <div class="menu">
         <div v-for="(item, i) of menuItems" v-bind:key="'menu-item-' + i" class="menu-item">
-            <a :href="item.link">{{item.label}}</a>
+            <router-link :to="item.link">{{item.label}}</router-link>
         </div>
     </div>
 </template>

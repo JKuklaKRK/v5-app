@@ -1,8 +1,8 @@
 export default {
     menu: [
         {
-            label: 'Menu item 1',
-            link: '/Menu'
+            label: 'Tworzenie postaci',
+            link: '/creator'
         },
         {
             label: 'Menu item 2',
