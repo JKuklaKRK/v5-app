@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <DefaultContainer/>
+    <DefaultContainer v-if="logged"/>
+    <h1 v-else> You must login to see content</h1>
   </div>
 </template>
 
@@ -10,6 +11,11 @@ export default {
   name: 'V5-App',
   components: {
     DefaultContainer
+  },
+  data() {
+    return {
+      logged: true
+    }
   }
 }
 </script>
