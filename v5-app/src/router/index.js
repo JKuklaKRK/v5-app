@@ -1,11 +1,17 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 //import DefaultContainer from '../views/containers/DefaultContainer'
-import Creator from '../views/Creator'
+import Home from '../views/pages/Home'
+import Creator from '../views/pages/Creator'
 
 Vue.use(VueRouter)
 
 const routes = [
+  {
+    path: '/',
+    name: 'Homepage',
+    component: Home
+  },
   {
     path: '/creator',
     name: 'Creator',

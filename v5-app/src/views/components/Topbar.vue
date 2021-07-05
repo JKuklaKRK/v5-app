@@ -23,9 +23,6 @@ export default {
     justify-content: space-between;
     width: 100%;
     height: 55px;
-    -webkit-box-shadow: 0px 2px 0px 0px rgba(32,32,32,1);
-    -moz-box-shadow: 0px 2px 0px 0px rgba(32,32,32,1);
-    box-shadow: 0px 2px 0px 0px rgba(32,32,32,1);
     .logo-box {
       .logo {
         height: 100%;
@@ -41,11 +38,10 @@ export default {
         width: 120px;
         text-align: center;
         border-radius: 5px;
-        border: 2px solid crimson;
         padding: 5px;
         margin-right: 20px;
         text-decoration: none;
-        color: crimson;
+        color: #fff;
         font-weight: 700;
       }
     }

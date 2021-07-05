@@ -32,8 +32,13 @@ export default {
             display: flex;
             flex-direction: row;
             .content-box {
+                display: flex;
+                flex-direction: column;
                 flex-grow: 1;
                 background-color: #35363a;
+                &>div:first-child {
+                    flex-grow: 1;
+                }
             }
         }
     }

@@ -25,6 +25,7 @@ export default {
 
 <style lang="scss">
     .menu {
+        min-width: 200px;
         width: 200px;
         height: calc(100vh - 55px);
         -webkit-box-shadow: 2px 0px 0px 0px rgba(32,32,32,1);
