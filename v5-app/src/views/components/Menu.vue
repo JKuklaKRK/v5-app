@@ -1,8 +1,6 @@
 <template>
     <div class="menu">
-        <div v-for="(item, i) of menuItems" v-bind:key="'menu-item-' + i" class="menu-item">
-            <router-link :to="item.link">{{item.label}}</router-link>
-        </div>
+        <router-link v-for="(item, i) of menuItems" :key="'menu-item' + i" :to="item.link">{{item.label}}</router-link>
     </div>
 </template>
 
@@ -31,13 +29,20 @@ export default {
         -webkit-box-shadow: 2px 0px 0px 0px rgba(32,32,32,1);
         -moz-box-shadow: 2px 0px 0px 0px rgba(32,32,32,1);
         box-shadow: 2px 0px 0px 0px rgba(32,32,32,1);
-        .menu-item {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-            a {
-                color: #8d8d8d;
+        a {
+            display: block;
+            padding: 20px 0;
+            border-radius: 3px;
+            color: #8d8d8d;
+            text-align: center;
+            cursor: pointer;
+            text-decoration: none;
+        
+            &:hover {
+                animation-name: link-hover;
+                animation-duration: 8s;
+                animation-iteration-count: infinite;
+                -o-animation-timing-function: ease-in-out;
             }
         }
     }

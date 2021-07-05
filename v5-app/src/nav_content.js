@@ -1,12 +1,12 @@
 export default {
     menu: [
         {
-            label: 'Tworzenie postaci',
-            link: '/creator'
+            label: 'Zajawki klanów',
+            link: '/clan-intros'
         },
         {
-            label: 'Menu item 2',
-            link: '/Menu'
+            label: 'Tworzenie postaci',
+            link: '/creator'
         },
         {
             label: 'Menu item 3',

@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 //import DefaultContainer from '../views/containers/DefaultContainer'
 import Home from '../views/pages/Home'
 import Creator from '../views/pages/Creator'
+import ClanIntros from '../views/pages/ClanIntros'
+import ClansIntro from '../views/pages/ClansIntro'
 
 Vue.use(VueRouter)
 
@@ -16,6 +18,16 @@ const routes = [
     path: '/creator',
     name: 'Creator',
     component: Creator
+  },
+  {
+    path: '/clan-intros',
+    name: 'ClanIntros',
+    component: ClanIntros
+  },
+  {
+    path: '/clans-intro/:clan',
+    name: 'ClansIntro',
+    component: ClansIntro
   }
 ]
 

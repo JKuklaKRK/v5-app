@@ -53,3 +53,31 @@ body {
     margin: 0;
     background: url('../img/marble-bg2.jpg') no-repeat center fixed;
   }
+  
+  @keyframes link-hover {
+	0% {box-shadow: none;}
+	25% {box-shadow: inset 0px 0px 30px 1px #A80E0E; border-color: #A80E0E;}
+	50% {box-shadow: none;}
+	75% {box-shadow: inset 0px 0px 30px 1px #A80E0E; border-color: #A80E0E;}
+	100% {box-shadow: none;}
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #0c0c0c;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #171717;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}

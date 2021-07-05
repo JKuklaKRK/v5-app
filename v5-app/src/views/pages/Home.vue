@@ -19,6 +19,7 @@ export default {
         background-image: url('../../assets/img/home-bg.jpg');
         background-size: cover;
         background-position: center center;
+        box-shadow: inset 0px 0px 40px 1px #000;
         h1 {
             margin: 0 0 16px;
             font-size: 20px;

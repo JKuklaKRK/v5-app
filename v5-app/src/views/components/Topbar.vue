@@ -1,7 +1,7 @@
 <template>
     <div class="topbar">
       <div class="logo-box">
-        <img class="logo" src="../../assets/img/logotyp.png" alt="">
+        <a href="/"><img class="logo" src="../../assets/img/logotyp.png" alt=""></a>
       </div>
       <div class="login-register-box">
         <a href="" class="register">Rejestracja</a>
