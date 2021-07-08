@@ -9,8 +9,8 @@ export default {
             link: '/creator'
         },
         {
-            label: 'Menu item 3',
-            link: '/Menu'
+            label: 'Kostnica',
+            link: '/dice-roller'
         },
         {
             label: 'Menu item 4',

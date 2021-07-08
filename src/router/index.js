@@ -5,6 +5,7 @@ import Home from '../views/pages/Home'
 import Creator from '../views/pages/Creator'
 import ClanIntros from '../views/pages/ClanIntros'
 import ClansIntro from '../views/pages/ClansIntro'
+import DiceRoller from '../views/pages/DiceRoller'
 
 Vue.use(VueRouter)
 
@@ -28,6 +29,11 @@ const routes = [
     path: '/clans-intro/:clan',
     name: 'ClansIntro',
     component: ClansIntro
+  },
+  {
+    path: '/dice-roller',
+    name: 'DiceRoller',
+    component: DiceRoller
   }
 ]
 
